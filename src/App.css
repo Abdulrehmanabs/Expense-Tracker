@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    font-family: 'lato', sans-serif;
+    box-sizing: border-box;
+}
+
+.body-Container{
+    margin: auto;
+    margin-block: 20px;
+    width: 400px;
+    text-align: center;
+    /* background-color: #ddd; */
+}
+
+
+
+.current-balance{
+    margin-top: 30px;
+}
+
+
+.bal-dif-container h2 h3{
+    margin-top: 10px !important;
+}
+.bal-dif-container h2,h3{
+    color: inherit;
+    background-color: inherit;
+}
+.bal-dif-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: white;
+}
+
+
+
+.tran-history{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #b9b9b9;
+}
+
+.plus{
+    border-right: 5px solid #b6960a;
+}
+.plus:hover{
+    color: white;
+    background-color: #b6960a;
+}
+
+.minus{
+    border-right: 5px solid #2da3ad;
+}
+.minus:hover{
+    color: white;
+    background-color: #2da3ad;
+}
+
+/* history List Styling */
+ul li{
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    padding: 10px;
+    margin-block: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: white;
+}
+
+li span{
+    margin-left: auto;
+    color: inherit;
+    background-color: inherit;
+}
+li button{
+    display: none;
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    padding: 5px 11px;
+    color: white;
+    background-color: rgb(94, 21, 21);
+}
+li:hover button{
+    display: block;
+}
+
+
+
+
+
+.form{
+    width: 100%;
+    text-align: left !important;
+}
+form div{
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.form button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgb(56, 136, 241);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+            0 1px 2px rgba(0, 0, 0, 0.24);
+    color:white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
